@@ -197,6 +197,38 @@ const handleSubmit = (e) => {
               <div class="flex justify-between items-start mb-6 md:mb-8">
                 <div class="p-3 md:p-4 bg-purple-600/20 rounded-2xl text-purple-400">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                </div>
+                <span class="text-[9px] md:text-[10px] text-zinc-500 uppercase tracking-widest font-black">Side Project</span>
+              </div>
+              <h3 class="text-2xl md:text-3xl font-bold mb-3">Flex Workout Tracker</h3>
+              <p class="text-sm md:text-base text-zinc-400 leading-relaxed mb-6 md:mb-8">
+                Comprehensive tracking platform utilizing the MERN stack. Features management and history to track
+                long-term fitness goals, charting, analytics, and saving and storing your workout data.  </p>
+              <div class="flex flex-wrap gap-2 md:gap-3 mb-8 md:mb-10">
+                <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">React</span>
+                <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">MongoDB</span>
+                <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">Express</span>
+
+              </div>
+            </div>
+            <div class="pt-6 border-t border-white/5 flex gap-6 md:gap-8">
+              <a href="https://github.com/beigid/Workout-Tracker" target="_blank" class="text-[10px] uppercase tracking-[0.2em] text-purple-400 hover:text-white transition-colors font-bold flex items-center gap-2">
+                GitHub <span class="text-lg">↗</span>
+              </a>
+              <a href="https://workout-app.dbeigi.com" target="_blank"
+                 class="text-[10px] uppercase tracking-[0.2em] text-purple-400 hover:text-white transition-colors font-bold flex items-center gap-2">
+                Live App <span class="text-lg">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="group relative p-6 md:p-10 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-xl hover:border-purple-500/50 transition-all duration-500 flex flex-col text-left">
+            <div class="flex-grow">
+              <div class="flex justify-between items-start mb-6 md:mb-8">
+                <div class="p-3 md:p-4 bg-purple-600/20 rounded-2xl text-purple-400">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                   </svg>
                 </div>
@@ -217,38 +249,6 @@ const handleSubmit = (e) => {
                 GitHub <span class="text-lg">↗</span>
               </a>
               <a href="https://bowie-dream-spaces.com/" target="_blank" class="text-[10px] uppercase tracking-[0.2em] text-purple-400 hover:text-white transition-colors font-bold flex items-center gap-2">
-                Live App <span class="text-lg">↗</span>
-              </a>
-            </div>
-          </div>
-
-          <div class="group relative p-6 md:p-10 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-xl hover:border-purple-500/50 transition-all duration-500 flex flex-col text-left">
-            <div class="flex-grow">
-              <div class="flex justify-between items-start mb-6 md:mb-8">
-                <div class="p-3 md:p-4 bg-purple-600/20 rounded-2xl text-purple-400">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                  </svg>
-                </div>
-                <span class="text-[9px] md:text-[10px] text-zinc-500 uppercase tracking-widest font-black">Side Project</span>
-              </div>
-              <h3 class="text-2xl md:text-3xl font-bold mb-3">Workout Tracker</h3>
-              <p class="text-sm md:text-base text-zinc-400 leading-relaxed mb-6 md:mb-8">
-                Comprehensive tracking platform utilizing the MERN stack. Features management and history to track
-                long-term fitness goals.  </p>
-              <div class="flex flex-wrap gap-2 md:gap-3 mb-8 md:mb-10">
-                <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">React</span>
-                <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">MongoDB</span>
-                <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">Express</span>
-
-              </div>
-            </div>
-            <div class="pt-6 border-t border-white/5 flex gap-6 md:gap-8">
-              <a href="https://github.com/beigid/Workout-Tracker" target="_blank" class="text-[10px] uppercase tracking-[0.2em] text-purple-400 hover:text-white transition-colors font-bold flex items-center gap-2">
-                GitHub <span class="text-lg">↗</span>
-              </a>
-              <a href="https://workout-app.dbeigi.com" target="_blank"
-                 class="text-[10px] uppercase tracking-[0.2em] text-purple-400 hover:text-white transition-colors font-bold flex items-center gap-2">
                 Live App <span class="text-lg">↗</span>
               </a>
             </div>

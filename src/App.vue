@@ -93,9 +93,7 @@ const handleSubmit = (e) => {
       <div class="max-w-6xl mx-auto">
         <h2 class="text-purple-500 font-mono text-sm mb-12 md:mb-16 text-center tracking-widest uppercase">// Projects</h2>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
-
-          <div class="group relative p-6 md:p-10 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-xl hover:border-purple-500/50 transition-all duration-500 flex flex-col text-left">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">          <div class="group relative p-6 md:p-10 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-xl hover:border-purple-500/50 transition-all duration-500 flex flex-col text-left">
             <div class="flex-grow">
               <div class="flex justify-between items-start mb-6 md:mb-8">
                 <div class="p-3 md:p-4 bg-purple-600/20 rounded-2xl text-purple-400">
@@ -108,9 +106,10 @@ const handleSubmit = (e) => {
                   Experience
                 </span>
               </div>
-              <h3 class="text-2xl md:text-3xl font-bold mb-3">onDiem</h3>
+              <h3 class="text-2xl md:text-3xl font-bold mb-3">onDiem Platform</h3>
               <p class="text-sm md:text-base text-zinc-400 leading-relaxed mb-6 md:mb-8">
-                Architecting a nationwide dental staffing platform. Since 2020, I have led the evolution of our Ruby on Rails API and Vue.js ecosystem, scaling the system to support seamless scheduling for thousands of professionals.              </p>
+                Architecting a nationwide healthcare staffing marketplace handling real-time shift distribution, compliance, and automated payroll integration. Leading full-stack engineering across our Ruby on Rails API and Vue.js ecosystem to scale scheduling infrastructure for thousands of dental professionals nationwide.
+              </p>
               <div class="flex flex-wrap gap-2 md:gap-3 mb-8 md:mb-10">
                 <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">Vue.js</span>
                 <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">Rails</span>
@@ -131,15 +130,48 @@ const handleSubmit = (e) => {
               <div class="flex justify-between items-start mb-6 md:mb-8">
                 <div class="p-3 md:p-4 bg-purple-600/20 rounded-2xl text-purple-400">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <span class="text-[9px] md:text-[10px] text-zinc-500 uppercase tracking-widest font-black">Professional Project</span>
+              </div>
+              <h3 class="text-2xl md:text-3xl font-bold mb-3">onDiem Mobile App</h3>
+              <p class="text-sm md:text-base text-zinc-400 leading-relaxed mb-6 md:mb-8">
+                Accelerated the next-generation mobile app built specifically for dental professionals to register
+                accounts, discover local shifts, and manage on-demand schedules. Built with Flutter, Dart, and Rust
+                microservices, the app powers real-time shift discovery, ranking-based matching, guest browsing
+                before signup, and seamless migration for active dental providers.
+              </p>
+              <div class="flex flex-wrap gap-2 md:gap-3 mb-8 md:mb-10">
+                <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">Flutter</span>
+                <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">Rust</span>
+                <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">Dart</span>
+                <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">Rails API</span>
+                <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">Claude AI Workflows</span>
+              </div>
+            </div>
+            <div class="pt-6 border-t border-white/5 flex justify-between items-center">
+              <a href="https://ondiem.com" target="_blank" class="text-[10px] uppercase tracking-[0.2em] text-purple-400 hover:text-white transition-colors font-bold flex items-center gap-2">
+                Visit onDiem.com <span class="text-lg">↗</span>
+              </a>
+              <span class="text-[9px] md:text-[10px] text-zinc-500 uppercase tracking-widest font-mono">Mobile App</span>
+            </div>
+          </div>
+
+          <div class="group relative p-6 md:p-10 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-xl hover:border-purple-500/50 transition-all duration-500 flex flex-col text-left">
+            <div class="flex-grow">
+              <div class="flex justify-between items-start mb-6 md:mb-8">
+                <div class="p-3 md:p-4 bg-purple-600/20 rounded-2xl text-purple-400">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
                 <span class="text-[9px] md:text-[10px] text-zinc-500 uppercase tracking-widest font-black">Side Project</span>
               </div>
-              <h3 class="text-2xl md:text-3xl font-bold mb-3">Finance API</h3>
+              <h3 class="text-2xl md:text-3xl font-bold mb-3">Personal Finance API</h3>
               <p class="text-sm md:text-base text-zinc-400 leading-relaxed mb-6 md:mb-8">
-                High-performance financial engine built with a modern Python stack. Engineered with a focus on data
-                integrity and security, utilizing FastAPI and PostgreSQL with fully automated migration workflows via Alembic.</p>
+                High-performance financial telemetry and transaction processing engine built with a modern Python stack. Engineered for sub-millisecond response times and strict data security using FastAPI, PostgreSQL, and SQLAlchemy, complete with zero-downtime database migration pipelines via Alembic.
+              </p>
               <div class="flex flex-wrap gap-2 md:gap-3 mb-8 md:mb-10">
                 <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">React</span>
                 <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">FastAPI</span>
@@ -170,10 +202,8 @@ const handleSubmit = (e) => {
               </div>
               <h3 class="text-2xl md:text-3xl font-bold mb-3">Mortgage Pulse</h3>
               <p class="text-sm md:text-base text-zinc-400 leading-relaxed mb-6 md:mb-8">
-                A data-driven web application designed to evaluate real-time real estate market trends. The
-                application programmatically tracks shifts in macroeconomics by fetching live financial indices and
-                mapping them against localized regional premiums. An automated cloud workflow is scheduled to fetch the
-                latest mortgage rates every weekday morning.</p>
+                Real-time macroeconomic intelligence platform tracking localized housing markets and interest rate shifts. Features automated serverless data pipelines built with FastAPI and GitHub Actions to ingest daily financial indices, run premium delta calculations, and visualize mortgage trends on a Vue.js dashboard.
+              </p>
               <div class="flex flex-wrap gap-2 md:gap-3 mb-8 md:mb-10">
                 <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">Vue.js</span>
                 <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">FastAPI</span>
@@ -204,13 +234,13 @@ const handleSubmit = (e) => {
               </div>
               <h3 class="text-2xl md:text-3xl font-bold mb-3">Flex Workout Tracker</h3>
               <p class="text-sm md:text-base text-zinc-400 leading-relaxed mb-6 md:mb-8">
-                Comprehensive tracking platform utilizing the MERN stack. Features management and history to track
-                long-term fitness goals, charting, analytics, and saving and storing your workout data.  </p>
+                Full-stack analytics & progressive overload tracking application built on the MERN stack (React, Node.js, Express, MongoDB). Implemented custom telemetry charts, historic performance logging, and aggregated metrics to help athletes visualize volume progression over time.
+              </p>
               <div class="flex flex-wrap gap-2 md:gap-3 mb-8 md:mb-10">
                 <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">React</span>
-                <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">MongoDB</span>
+                <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">Node.js</span>
                 <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">Express</span>
-
+                <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">MongoDB</span>
               </div>
             </div>
             <div class="pt-6 border-t border-white/5 flex gap-6 md:gap-8">
@@ -236,12 +266,11 @@ const handleSubmit = (e) => {
               </div>
               <h3 class="text-2xl md:text-3xl font-bold mb-3">Sam Bowie Construction Company</h3>
               <p class="text-sm md:text-base text-zinc-400 leading-relaxed mb-6 md:mb-8">
-                End-to-end digital presence for an independent construction company. Developed a responsive,
-                image-heavy brand experience using React and Tailwind, focusing on performance optimization for high-resolution portfolio displays.              </p>
+                High-conversion digital web application and portfolio for a premier construction enterprise. Built with React and Tailwind CSS, featuring lazy-loaded media pipelines, responsive layout architecture, and performance optimizations achieving high-speed Lighthouse scores for high-resolution showcases.
+              </p>
               <div class="flex flex-wrap gap-2 md:gap-3 mb-8 md:mb-10">
                 <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">React</span>
-                <span
-                    class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">Tailwind</span>
+                <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">Tailwind</span>
               </div>
             </div>
             <div class="pt-6 border-t border-white/5 flex gap-6 md:gap-8">
@@ -267,7 +296,7 @@ const handleSubmit = (e) => {
               </div>
               <h3 class="text-2xl md:text-3xl font-bold mb-3">Blow Out the Candle</h3>
               <p class="text-sm md:text-base text-zinc-400 leading-relaxed mb-6 md:mb-8">
-                An interactive web experience utilizing the Web Audio API to detect microphone frequency peaks. Engineered real-time audio processing logic to trigger CSS-driven animations, simulating the physical act of blowing out a digital candle.
+                Real-time browser audio processing application utilizing the Web Audio API to analyze microphone frequency spectrums. Engineered fast-Fourier transform (FFT) peak detection algorithms to trigger reactive CSS keyframe physics, simulating dynamic air pressure interaction.
               </p>
               <div class="flex flex-wrap gap-2 md:gap-3 mb-8 md:mb-10">
                 <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">JavaScript</span>

@@ -195,6 +195,36 @@ const handleSubmit = (e) => {
               <div class="flex justify-between items-start mb-6 md:mb-8">
                 <div class="p-3 md:p-4 bg-purple-600/20 rounded-2xl text-purple-400">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 10h4a2 2 0 0 1 0 4h-4l-4 7h-3l2-7h-4l-2 2h-3l1-4l-1-4h3l2 2h4l-2-7h3z" />
+                  </svg>
+                </div>
+                <span class="text-[9px] md:text-[10px] text-zinc-500 uppercase tracking-widest font-black">Side Project</span>
+              </div>
+              <h3 class="text-2xl md:text-3xl font-bold mb-3">Neon Skies</h3>
+              <p class="text-sm md:text-base text-zinc-400 leading-relaxed mb-6 md:mb-8">
+                Automated cloud-native data engineering pipeline tracking and visualizing commercial flight pricing &amp; upgrade trends. Built with containerized Python ETL running on Google Cloud Run Jobs &amp; Cloud Scheduler, streaming time-series pricing snapshots into PostgreSQL (Neon) and Metabase BI dashboards.
+              </p>
+              <div class="flex flex-wrap gap-2 md:gap-3 mb-8 md:mb-10">
+                <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">Python</span>
+                <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">Postgres</span>
+                <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">Docker</span>
+                <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">GCP</span>
+                <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">Metabase</span>
+                <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">SerpApi</span>
+              </div>
+            </div>
+            <div class="pt-6 border-t border-white/5 flex gap-6 md:gap-8">
+              <a href="https://github.com/beigid/neon-skies" target="_blank" class="text-[10px] uppercase tracking-[0.2em] text-purple-400 hover:text-white transition-colors font-bold flex items-center gap-2">
+                GitHub <span class="text-lg">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="group relative p-6 md:p-10 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-xl hover:border-purple-500/50 transition-all duration-500 flex flex-col text-left">
+            <div class="flex-grow">
+              <div class="flex justify-between items-start mb-6 md:mb-8">
+                <div class="p-3 md:p-4 bg-purple-600/20 rounded-2xl text-purple-400">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                   </svg>
                 </div>

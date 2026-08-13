@@ -202,20 +202,24 @@ const handleSubmit = (e) => {
               </div>
               <h3 class="text-2xl md:text-3xl font-bold mb-3">Neon Skies</h3>
               <p class="text-sm md:text-base text-zinc-400 leading-relaxed mb-6 md:mb-8">
-                Automated cloud-native data engineering pipeline tracking and visualizing commercial flight pricing &amp; upgrade trends. Built with containerized Python ETL running on Google Cloud Run Jobs &amp; Cloud Scheduler, streaming time-series pricing snapshots into PostgreSQL (Neon) and Metabase BI dashboards.
+                End-to-end cloud data engineering pipeline tracking commercial flight pricing &amp; upgrade trends. Built with containerized Python ETL on GCP Cloud Run Jobs &amp; Scheduler, streaming time-series data into PostgreSQL (Neon), containerized local Metabase BI, and an interactive React/Tailwind public dashboard.
               </p>
               <div class="flex flex-wrap gap-2 md:gap-3 mb-8 md:mb-10">
+                <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">React</span>
+                <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">Tailwind</span>
                 <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">Python</span>
                 <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">Postgres</span>
                 <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">Docker</span>
                 <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">GCP</span>
                 <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">Metabase</span>
-                <span class="text-[9px] md:text-[10px] px-3 py-1 bg-white/10 rounded-full text-zinc-300 font-mono uppercase">SerpApi</span>
               </div>
             </div>
             <div class="pt-6 border-t border-white/5 flex gap-6 md:gap-8">
               <a href="https://github.com/beigid/neon-skies" target="_blank" class="text-[10px] uppercase tracking-[0.2em] text-purple-400 hover:text-white transition-colors font-bold flex items-center gap-2">
                 GitHub <span class="text-lg">↗</span>
+              </a>
+              <a href="https://neon-skies-tracking.netlify.app/" target="_blank" class="text-[10px] uppercase tracking-[0.2em] text-purple-400 hover:text-white transition-colors font-bold flex items-center gap-2">
+                Live App <span class="text-lg">↗</span>
               </a>
             </div>
           </div>
